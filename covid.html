@@ -1,0 +1,216 @@
+<body>
+    <div id="covid-container">
+      <div class="hero">
+        <div class="grid">
+          <h1>
+            Pier Solutions Helps Battle COVID-19 
+          </h1>
+          <p class="p1">
+            An effort to help small & medium businesses get online
+          </p>
+        </div>
+      </div>
+      <div class="grid content">
+        <div class="sub-nav">
+          <a href="#featured">WEBSITES</a>
+          <a href="#resources">RESOURCES</a>
+        </div>
+        <p class="p1">
+          COVID-19 continues to impact businesses around Canada. In an effort to help businesses stay above water, and continue to get sales, we are providing the resources needed to help these businesses.
+        </p>
+        <div id="featured" class="article-list">
+          <h3>
+            WEBSITES
+          </h3>
+          <p class="textthingy">
+            At Pier Solutions, we are providing SMALL & MEDIUM SIZED BUSINESSES with resources to help them get online. You will work directly with our highly experienced, knowledgeable, and hard working developers to custom develop your website, to sell your products and provide an online shop for your clients!
+            <br>
+            We are offering our web services at a discounted rate of up to 50% off to these businesses. In British Colombia, the <a href="https://covid.smallbusinessbc.ca/hc/en-us/articles/1500002293981-Launch-Online-Grant-Program">government is offering up to $7500</a> in grants to get your business online. Take advantage of this unique opportunity to grow your business!
+          </p>
+        </div>
+       
+        <div id="resources" class="article-list">
+          <h3>
+            RESOURCES
+          </h3>
+          <ul>
+            <li><a href="https://covid.smallbusinessbc.ca/hc/en-us/articles/1500002293981-Launch-Online-Grant-Program">BC GOV. GRANTS</a></li>
+            <li><a href="https://linkedin.com/company/piersolutions">LINKEDIN</a></li>
+            <li><a href="mailto:contact@piersolutions.ca">CONTACT EMAIL</a></li>
+            <li><a href="mailto:amogh@piersolution.ca">CONTACT HEAD OF SALES</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </body>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#covid-container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Barlow', sans-serif;
+}
+
+/*****************************************SUB-NAV BUTTONS*/
+#covid-container .grid .sub-nav > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 48px;
+  border: 1px solid #f06e00;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #002d4b;
+  text-decoration: none;
+  margin: 0 30px 0 0;
+  transition: all .3s ease;
+}
+#covid-container .grid .sub-nav > a:hover {
+  background: #f06e00;
+  color: #ffffff;
+}
+
+/*****************************************TYPOGRAPHY*/
+#covid-container h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #002d48;
+  margin: 0 0 25px 0;
+}
+#covid-container h3 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #002d48;
+  margin: 0 0 25px 0;
+}
+#covid-container p.p1 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #272727;
+  margin: 0;
+}
+#covid-container .article-list a {
+  font-size: 18px;
+  line-height: 26px;
+  color: #1955aa;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+}
+#covid-container .article-list a:hover {
+  text-decoration: underline;
+}
+
+/*****************************************LAYOUT*/
+#covid-container .hero {
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 430px;
+  background: url(https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdmlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60) right center no-repeat, url(https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdmlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60) right center/1010px no-repeat;
+}
+#covid-container .grid {
+  display: flex;
+  width: 100%;
+  max-width: 1196px;
+  margin: 0 auto;
+  padding: 0 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+#covid-container .hero .grid h1,
+#covid-container .hero .grid .p1 {
+  max-width: 350px;
+}
+#covid-container .grid.content > * {
+  padding: 30px 0;
+}
+#covid-container .grid .sub-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 800px) {
+    #covid-container .grid .sub-nav {
+        display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 50px 0;
+  width: 400px;
+    }
+}
+#covid-container .grid .article-list {
+  border-top: 1px solid #e7e7e7;
+}
+#covid-container .grid .article-list ul li {
+  margin: 0 0 10px 0;
+}
+
+/*RESPONSIVE QUERIES*/
+@media screen and (max-width: 1450px) {
+  #covid-container .hero {
+    background: url(https://hqbill.box.com/shared/static/8vrfyvptym357mpe4oza1frheqo70s9v.png) left -500px center no-repeat, url(https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdmlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60) right center/1010px no-repeat;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #covid-container .hero {
+    background: url(https://hqbill.box.com/shared/static/8vrfyvptym357mpe4oza1frheqo70s9v.png) left -500px center no-repeat, url(https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdmlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60) right -200px center/1010px no-repeat;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #covid-container .grid .sub-nav {
+    padding: 30px 0 50px 0;
+    flex-wrap: wrap;
+  }
+  #covid-container .grid .sub-nav > a {
+    margin: 20px 30px 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  #covid-container .grid .sub-nav {
+    flex-direction: column;
+  }
+  #covid-container h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #covid-container h3 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  #covid-container p.p1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #covid-container h1,
+  #covid-container p.p1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.textthingy {
+    width: 400px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.p1 {
+  width: 400px;
+}
+}
+    </style>
