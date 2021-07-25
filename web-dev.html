@@ -69,7 +69,69 @@
             <div class="container-main single-main">
               <div class="col-md-12">
                 <div class="block-main mb-30">
+                  
                   <img src="https://images.unsplash.com/photo-1532623034127-3d92b01fb3c5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" class="img-responsive" alt="reviews2">
+                  <br>
+                  <br>
+                  <div class="Mycontainer">
+
+                    <div class="avatar">
+                      <img alt="" aria-hidden src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Wordpress_Blue_logo.png/1200px-Wordpress_Blue_logo.png" class="background" />
+                      <img alt="Avatar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Wordpress_Blue_logo.png/1200px-Wordpress_Blue_logo.png" width="100" height="100" onclick="WP()"/>
+                    </div>
+                  
+                    <div class="avatar">
+                      <img alt="" aria-hidden src="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Wix.com_website_logo.svg/1024px-Wix.com_website_logo.svg.png" class="background" />
+                      <img alt="Avatar" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Wix.com_website_logo.svg/1024px-Wix.com_website_logo.svg.png" width="100" height="100" onclick="wix()" />
+                    </div>
+                  
+                    <div class="avatar">
+                      <img alt="" aria-hidden src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Webflow_logo.svg/1280px-Webflow_logo.svg.png" class="background" />
+                      <img alt="Avatar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Webflow_logo.svg/1280px-Webflow_logo.svg.png" width="100" height="100" onclick="webflow()" />
+                    </div>
+                  
+                    <div class="avatar">
+                      <img alt="" aria-hidden src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png" class="background" />
+                      <img alt="Avatar" src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png" width="100" height="100" onclick="shopify()" />
+                    </div>
+                  
+                    <div class="avatar">
+                      <img alt="" aria-hidden src="https://developers.mydevices.com/wp-content/uploads/2016/10/custom_code_color_icon.png" class="background" />
+                      <img alt="Avatar" src="https://developers.mydevices.com/wp-content/uploads/2016/10/custom_code_color_icon.png" width="100" height="100" onclick="customcode()" />
+                    </div>
+                  
+                    <div class="avatar">
+                      <img alt="" aria-hidden src="https://stripe-images.s3.us-west-1.amazonaws.com/works-with/12e4a4f20e799e2cacfcbb7ff06f1ac969b2ab3d" class="background" />
+                      <img alt="Avatar" src="https://stripe-images.s3.us-west-1.amazonaws.com/works-with/12e4a4f20e799e2cacfcbb7ff06f1ac969b2ab3d" width="100" height="100" onclick="sqaurespace()" />
+                    </div>
+                  
+                  </div>
+                
+                  <script>
+                    function WP() {
+                      alert("WordPress Website Development")
+                    }
+                    function wix() {
+                      alert("Wix Website Development")
+                    }
+                    function webflow() {
+                      alert("WebFlow Website Development")
+                    }
+                    function shopify() {
+                      alert("Shopify Website Development")
+                    }
+                    function customcode() {
+                      alert("Custom Code Development")
+                    }
+                    function sqaurespace() {
+                      alert("SquareSpace Website Development")
+                    }
+                  </script>
+                  <!-- end -->
+                
+                
+                  <br>
+                  <br>
                   <div class="content-main single-post padDiv">
                     <div class="journal-txt">
                       <h4><a href="#">WEB DEVELOPMENT SERVICES - Indera Technologies</a></h4>
@@ -81,8 +143,8 @@
                     </div>
                     <p class="mb-30">As a highly innovative, creative and forward – thinking software company, we specialize in Website and Web App development, remaining firmly committed to our primary mission of moving the threshold of what is perceived as “possible” in the tech industry, and challenging the conventions related to your business market niche, helping you succeed and growing your business, with high quality solutions.</p>
                     <p class="mb-30">From simple, promotional websites, to e-commerce web apps, or complex, multi-functional web applications, we've done it all, and can help you make a unique impact and provide custom, high quality services to your customers.</p>
-                    <p class="mb-30">Not only do we Design and Develop websites & web apps, but we also REDESIGN websites and web apps. This means, taking on projects with potentially outdated looks, or the needing new functionality, we do it!</p>
-                    <blockquote>"Indera Technologies worked day and night to get my project finished, the team is very knowledgeable and would 10/10 recommend to anyone looking for quality services" ~ Sal M, Exclusive Products</blockquote>
+                    <p class="mb-30">Not only do we Design and Develop websites & web apps, but we also REDESIGN websites and web apps. This means, taking on projects with potentially outdated looks, or new functionality implementation, we do it!</p>
+                    <blockquote>"Indera worked day and night to get my project finished, the team is very knowledgeable and would 10/10 recommend to anyone looking for quality services" ~ Sal M, Exclusive Products</blockquote>
                   </div>
                 </div>
               </div>
@@ -92,9 +154,297 @@
       </div>
     </div>
   </div>
+  
   <!--  </div> -->
   <!-- start section main content -->
+  <style>
+    .avatar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100px;
+    height: 100px;
+  
+    border-radius: 10%;
+    overflow: hidden;
+  
+    /* Subtle inner border */
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.015);
+  }
+  
+  .avatar img {
+    height: 70%;
+    width: 70%;
+    z-index: 2;
+  
+    /* Optionally add a drop shadow to the main image	 */
+    /* to make it feel "lifted"	 */
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.12));
+  }
+  
+  .avatar .background {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    transform: scale(2);
+    filter: blur(13px) opacity(0.2);
+  }
+  
+  /* Irrelevant styling */
+  
+  
+  .Mycontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    place-items: center;
+  }
+  
+  
+  </style>
+  <style>
+    /* Layout */
 
+section {
+  display: table;
+  margin: 120px auto;
+  width: 800px;
+}
+
+section article {
+  display: table-cell;
+  width: 200px;
+  vertical-align: bottom;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#youtube, #docs, #gmail, #drive {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* YouTube */
+
+#youtube {
+  background: #de473c;
+  border-radius: 14px / 21px;
+  width: 100px;
+  height: 70px;
+}
+
+#youtube:before {
+  content: "";
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 28px solid #f3f1e7;
+  width: 0; 
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -18px 0 0 -12px;
+}
+
+/* Google Docs */
+
+#docs {
+  background: #2d74ec;
+  border-radius: 8px 30px 8px 8px;
+  width: 88px;
+  height: 108px;
+}
+
+#docs:before {
+  content: "";
+  border-bottom: 13px solid #a0c3ff;
+  border-top: 13px solid #fff;
+  border-left: 13px solid #a0c3ff;
+  border-right: 13px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;   
+}
+
+#docs:after {
+  content: "";
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid rgba(0, 0, 0, .3);
+  border-left: 13px solid transparent;
+  border-right: 13px solid rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 26px;
+  right: 0;   
+}
+
+#docs .line {
+  background: #ebf2fe;
+  display: block;
+  width: 60px;
+  height: 6px;
+  margin: 0 14px;
+  position: absolute;
+  left: 0;
+}
+
+#docs #line1 {
+  top: 35px;
+}
+
+#docs #line2 {
+  top: 49px;
+}
+
+#docs #line3 {
+  top: 63px;
+}
+
+#docs #line4 {
+  top: 77px;
+  width: 34px;
+}
+
+/* Gmail */
+
+#gmail {
+  background: #e24f43;
+  border-radius: 7px;
+  height: 78px;
+  width: 108px;
+  overflow: hidden;
+  /* rounded corner fix */
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+#gmail #top {
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 33px solid #f1f0e5;
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+#gmail #left {
+  border-left: 40px solid #f1f0e5;
+  border-top: 29px solid rgba(255, 255, 255, 0);
+  border-bottom: 28px solid rgba(255, 255, 255, 0);
+  content: "";
+  display: block;
+  position: absolute;
+  left: 12px;
+  bottom: 2px;
+  z-index: 19;
+}
+
+#gmail:after {
+  border-right: 42px solid rgba(255, 255, 255, 0);
+  border-left: 42px solid #adaca2;
+  border-top: 29px solid rgba(255, 255, 255, 0);
+  border-bottom: 29px solid #adaca2;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 12px;
+  bottom: 0;
+}
+
+#gmail:before {
+  border-left: 42px solid rgba(255, 255, 255, 0);
+  border-right: 42px solid #f1f0e5;
+  border-top: 29px solid rgba(255, 255, 255, 0);
+  border-bottom: 29px solid #f1f0e5;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 12px;
+  bottom: 0;
+  z-index: 9;
+}
+
+#gmail #shadow {
+  content: "";
+  display: block;
+  border-left: 55px solid transparent;
+  border-right: 55px solid rgba(0, 0, 0, .25);
+  border-top: 37px solid transparent;
+  border-bottom: 37px solid transparent;
+  position: absolute;
+  top: 12px;
+  right: 0;
+  z-index: 9;
+}
+
+/* Google Drive */
+
+#drive {
+  width: 112px;
+  height: 96px;
+}
+
+#drive #yellow {
+  background: #fdd04a;
+  display: block;
+  width: 39px;
+  height: 62px;
+  transform: skew(30deg);
+  -webkit-transform: skew(30deg);
+  position: absolute;
+  top: 0;
+  right: 19px;
+  z-index: 9;
+}
+
+#drive #blue {
+  background: #3f83f9;     
+  display: block;
+  width: 74px;
+  height: 34px;
+  transform: skew(-30deg);
+  -webkit-transform: skew(-30deg);
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  z-index: 7;
+}
+
+#drive #green {
+  background: #10a862;
+  display: block;
+  width: 38px;
+  height: 96px;
+  transform: skew(150deg);
+  -webkit-transform: skew(150deg);
+  position: absolute;
+  top: 0;
+  left: 9px;
+  z-index: 8;
+}
+
+#drive #green:after {
+  content: "";
+  border-bottom: 40px solid #fff;
+  border-right: 45px solid transparent;
+  position: absolute;
+  left: -6px;
+  bottom: -1px;
+} 
+  </style>
   <!-- start section footer -->
   <div id="footer" class="text-center">
     <div class="container">
@@ -134,3 +484,9 @@
 </body>
 
 </html>
+
+
+
+ 
+
+  
