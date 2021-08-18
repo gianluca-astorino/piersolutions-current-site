@@ -241,13 +241,42 @@ nav ul li a {
 
 #header {
   /* background: url("https://images.unsplash.com/photo-1495420378468-78588a508652?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60") repeat scroll center center / cover; */
-  background: url("https://images.unsplash.com/photo-1511140973288-19bf21d7e771?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fHRlY2h8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60") repeat scroll center center / cover;
+  /* background: url("https://images.unsplash.com/photo-1511140973288-19bf21d7e771?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fHRlY2h8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60") repeat scroll center center / cover; */
+  /* background: url("../PIER\ SOLUTIONS_VIDEO_HD1080p__04_08_2021_Revised\ Version.mp4") repeat scroll center center / cover; */
+  background: url('../Build\ Websites\ that\ convert-2.png') repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
 
 
-#header .header-content {
+.w3-content {
+  position:relative;
+}
+
+.w3-content .button {
+  position: absolute;
+  bottom:10em;
+  left:20em;
+}
+
+.mySlides {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background: repeat scroll center center / cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .mySlides {
+   display: none;
+   max-width: 540px;
+   height: 50vh;
+   background: repeat scroll center center / cover;
+  }
+}
+
+
+#headerr .header-content {
   height: 100vh;
   text-align: left;
   width: 100%;
