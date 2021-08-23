@@ -677,7 +677,7 @@
                 <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
                 <div id="errormessage"></div> -->
 
-                
+
                 <div class="col-lg-6">
                   <div class="form-group contact-block1">
                     <input type="email" class="form-control" id="name" name="_replyto" placeholder="Your Email"/>
@@ -704,8 +704,13 @@
                   <script>
 
                     function myFunction() {
-                      alert("message successfully sent")
-                      window.location.reload();
+
+
+                      let form = document.getElementsByTagName("form")[0];
+                      form.addEventListener("submit", (e) => {
+                        e.preventDefault()
+                        alert("Message Successfully Sent")
+                      })
                     }
                   </script>
                 </div>
